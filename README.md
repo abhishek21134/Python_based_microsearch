@@ -1,16 +1,15 @@
-
-# Project Title
-
-searchengine
+# Micro_search
 A small search library.
 
 Primarily intended to be a learning tool to teach the fundamentals of search.
 
 Useful for embedding into Python apps
 
-usage
-Example::
 
+
+## Usage
+
+```python
 import Python_based_microsearch
 
 # Create an instance, pointing it to where the data should be stored.
@@ -25,4 +24,6 @@ ms.index('email_4', {'text': 'How do you feel about becoming Management?\n\nThe 
 # Search on it.
 ms.search('Peter')
 ms.search('tps report')
+```
+P.S. I have already include this code in my .py file
 
